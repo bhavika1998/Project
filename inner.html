@@ -1,0 +1,125 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta charset="utf-8" />
+    <title>XP Global - Desktop Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+   
+    <div class="limiter">
+        <div class="container-login100">
+               <div class="desktop_app_menu_wrapper">
+                   <div class="desktop_app_topbar p-t-11 clearfix">
+                    <!-- xp logo-->
+                    <div class="login-top-xplogo float-l m-l-20"><img  src="images/xpGlobalLogo.png" alt="xpGlobalLogo">
+                    </div><!-- xp logo-->
+                    <!-- user strt-->
+                    <div class="float-r m-r-20 m-t-3 desktop_user_login_container">
+                        <div class="float-l m-r-10"><img src="images/img_avatar.png" alt="User Profile Photo" class="user_profile_photo"></div>
+                        <div class="float-l"><p>Hi, <span class="username m-l-3 m-r-3">Joh Deo</span> | <a href="#" class="m-l-5">Logout</a></p></div>
+                    </div>
+                    <!-- user end -->
+                   </div>
+                   <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">ASIA FX POST TRADE</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">DUMMY TRADING</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">EM FXO POST TRADE</button>
+                    <button class="tablinks" onclick="openCity(event, 'India')">LATAM FX POST TRADE</button>
+                    <button class="tablinks" onclick="openCity(event, 'Aus')">NDF BRL POST TRADE</button>
+                    <button class="tablinks" onclick="openCity(event, 'Canada')">OPS TOOL</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tureky')">REG & COMPLIANCE</button>
+                    <button class="tablinks" onclick="openCity(event, 'Nepal')">TIIE SWAP POST TRADE</button>
+                    <button class="tablinks" onclick="openCity(event, 'Bali')">UTILITIES</button>
+                  </div>
+                  
+                  <div id="London" class="tabcontent">
+                      <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">XP ASIA MARKET DATA VALUE</span></a>
+                      <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">ASIA FX ABIDE FILE GENERATOR</span></a>
+                      <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">ASIA FX BI</span></a>
+                      <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">ASIA FX BI 2</span></a>
+                      <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">ASIA FX INVOICE</span></a>
+                      <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">ASIA FX STP BLOTTER</span></a>
+                      <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">ASIA FX TRADE CAPTURE</span></a>
+                      <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">TRADE BLOTTER</span></a>
+                      <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">XP TRADE VERSION DIFFERENCE</span></a>
+                  </div>
+                  
+                  <div id="Paris" class="tabcontent">
+                      <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">LATAM FX DUMMY TRADING</span></a>
+                  </div>
+                  
+                  <div id="Tokyo" class="tabcontent">
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">BRL NDF QUICK TRADE</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">BRL NDF TRADE CAPTURE</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">EM FXO QUICK TRADE</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">EM FXO STP BLOTTER</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">EM FXO TRADE CAPTURE</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">TRADE BLOTTER</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">XP LATAM NDF</span></a>
+
+                  </div>
+                  <div id="India" class="tabcontent">
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">LATAM FX INVOICE</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">LATAM FX STP BLOTTER</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">LATAM FX TC</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">LATAM FX TC Quick Trade Entry</span></a>
+                  </div>
+                  
+                  <div id="Aus" class="tabcontent">
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">BRL NDF TRADE CAPTURE</span></a>
+                  </div>
+                  
+                  <div id="Canada" class="tabcontent">
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">HOLIDAY MANAGER</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">NEW STP</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">XP ASIA TRADING DATES</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">XP Trade Delete</span></a>
+                  </div>
+                  <div id="Tureky" class="tabcontent">
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">REG & COMPLIANCE</span></a>
+                  </div>
+                  
+                  <div id="Nepal" class="tabcontent">
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">TIIE SWAPS MARKITWIRE DETAILS</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">TIIE SWAPS STP BLOTTER</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">TIIE SWAPS TRADE CAPTURE</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">TRADE BLOTTER</span></a>
+                  </div>
+                  
+                  <div id="Bali" class="tabcontent">
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">ASIA FX DATE CALCULATION</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">ASIA FX DATE CALCULATION</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">DTCC RSS DATA FEED</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">LATAM FX PIT SELECTION</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">Report Email setup</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">STANDARD CHARTERED ACTIVITY REPORT</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">TIIE Swaps BBG Contribution</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">TIIE Swaps BBG Contribution</span></a>
+                    <a href="#" class="desktop_sub_application_tab"><span class="desktop_app_bullet float-l"></span><span class="desktop_app_txt float-l">USERS CONNECTION DETAIL</span></a>
+                  </div>
+                  
+               </div>
+        </div>
+    </div>
+    <script>if (typeof module === 'object'){window.module = module; module = undefined;} </script>  
+     <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>if (window.module) module = window.module;</script>
+</body>
+</html>
