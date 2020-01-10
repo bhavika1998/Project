@@ -596,7 +596,7 @@ iframe {
 .desktop_app_menu_wrapper {
   width: 1300px;
   height: 728px;
-  background: #030917;
+  background: #eeeeee;
   border-radius: 0px;
   overflow: hidden;
   -webkit-box-shadow: -1px -1px 19px 0px rgba(0,0,0,0.75);
@@ -677,11 +677,69 @@ iframe {
 .tabcontent {
   float: left;
   padding: 12px;
-  width: 75%;
+  width: 85%;
   border-left: none;
   height: 100%;
   overflow:scroll;
 }
+.tabcontent .heading{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin-left: 1em;
+  padding-bottom: 3em;
+}
+.tabcontent .input-content{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  line-height: 1.2;
+  color:#161B26;
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0 10px 0 19px;
+  border: 1px solid #C4C8CE;
+}
+.tabcontent .link{
+  padding: 10px;
+  
+}
+
+.tabcontent .input-description{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  line-height: 1.2;
+  color:#161B26;
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  height: 100px;
+  border-radius: 10px;
+  padding: 5px 10px 0 19px;
+  border: 1px solid #C4C8CE;
+}
+.tabcontent .input-question{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  line-height: 1.2;
+  color:#161B26;
+  display: block;
+  width: 95%;
+  background: #e6e6e6;
+  height: 50px;
+  border-radius: 10px;
+  padding: 5px 10px 0 19px;
+  border: 1px solid #C4C8CE;
+}
+.tabcontent .addQue{
+  align-content: center;
+}
+
+/* The table css start */
+/* The table css end  */
 a.desktop_sub_application_tab {
   color: #000000;
   font-size: 13px;
@@ -746,6 +804,8 @@ a.desktop_sub_application_tab:hover .desktop_app_txt{
     opacity: 1;
   }
 }
+
+
 
 /*//////////////////////////////////////////////////////////////////
 [ responsive ]*/
